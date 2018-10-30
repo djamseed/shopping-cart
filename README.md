@@ -40,7 +40,10 @@ Running on Docker
 dotnet restore
 dotnet publish -o publish -c Release
 docker build -t djamseed/shopping-cart-api .
-docker run -t djamseed/shopping-cart-api .
+docker run -it --rm -p 5000:80 -t djamseed/shopping-cart-api .
+
+#access
+http://localhost:5000 # -- this will open Swagger UI
 ```
 
 ## Architecture
