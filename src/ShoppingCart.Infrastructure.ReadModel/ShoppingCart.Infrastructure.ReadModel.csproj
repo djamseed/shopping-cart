@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ReleaseVersion>1.0</ReleaseVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cart\EventHandlers\" />
+    <Folder Include="Persistence\" />
+    <Folder Include="Common\" />
+    <Folder Include="Cart\Queries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCart.Core\ShoppingCart.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ServiceCollectionExtensions.config" />
+  </ItemGroup>
+</Project>

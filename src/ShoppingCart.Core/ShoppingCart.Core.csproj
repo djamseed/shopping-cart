@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ReleaseVersion>1.0</ReleaseVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Domain\Events\CartCreated\.cs" />
+    <Compile Remove="Logging\ILogger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenCqrs" Version="5.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\Dtos\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Application\Commands\" />
+    <Folder Include="Domain\Cart\" />
+    <Folder Include="Domain\Cart\Events\" />
+    <Folder Include="Domain\Cart\Models\" />
+    <Folder Include="Domain\Cart\Exceptions\" />
+  </ItemGroup>
+</Project>

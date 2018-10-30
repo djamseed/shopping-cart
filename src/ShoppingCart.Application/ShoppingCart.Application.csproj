@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCart.Core\ShoppingCart.Core.csproj" />
+    <ProjectReference Include="..\ShoppingCart.Infrastructure.ReadModel\ShoppingCart.Infrastructure.ReadModel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ReleaseVersion>1.0</ReleaseVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCart.Core\ShoppingCart.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cart\CommandHandlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenCqrs.Store.EF.InMemory" Version="5.3.0" />
+  </ItemGroup>
+</Project>
