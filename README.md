@@ -124,4 +124,4 @@ DELETE /api/v1/cart/{cartId}/clear
 
 ## Notes
 
-- API doc is available via Swagger and testing can be done by Swagger UI (https://localhost5001)
+- API doc is available via Swagger and testing can be done by Swagger UI (https://localhost:5001)
