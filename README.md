@@ -39,6 +39,7 @@ https://localhost:5001 # -- this will open Swagger UI
 Running on Docker
 
 ```sh
+docker build -t djamseed/shopping-cart-api .
 docker run -t djamseed/shopping-cart-api .
 ```
 
