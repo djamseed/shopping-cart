@@ -121,5 +121,4 @@ DELETE /api/v1/cart/{cartId}/clear
 
 ## Notes
 
-- Unit tests for testing domain events and client library
 - API doc is available via Swagger and testing can be done by Swagger UI (https://localhost5001)
