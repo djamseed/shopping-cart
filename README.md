@@ -1,7 +1,5 @@
 # Shopping Cart
 
-> A shopping cart system designed with CQRS and Event Sourcing
-
 An application that uses Command Query Responsibility Segregation (CQRS) and Event Sourcing to implement a shopping cart system using the [OpenCQRS](https://github.com/OpenCQRS) framework.
 
 **Features**
