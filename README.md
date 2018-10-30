@@ -94,7 +94,7 @@ PUT /api/v1/cart/{cartId}
 
 ```json
 {
-  "productName": "item-1"
+  "productName": "item-1",
   "quantity": 5
 }
 ```
