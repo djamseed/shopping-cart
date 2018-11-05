@@ -5,7 +5,6 @@ An application that uses Command Query Responsibility Segregation (CQRS) and Eve
 **Features**
 
 - Event Store and Read Model/Database using EntityFramework Core (InMemory Provider)
-- Native .NET Core Dependency Injection
 - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) to generate API documentation + UI to explore and test endpoints
 - [AutoRest](https://github.com/Azure/autorest) to generate a client library
 - Validation with [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
